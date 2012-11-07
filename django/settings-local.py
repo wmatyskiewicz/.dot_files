@@ -1,6 +1,6 @@
 DEBUG = True
 # False =  DjDT is close
-DEBUG_TOOLBAR = TRUE
+DEBUG_TOOLBAR = True
 
 SECRET_KEY = 'dev_key'
 
