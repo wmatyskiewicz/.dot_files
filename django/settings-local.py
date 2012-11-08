@@ -1,15 +1,15 @@
 DEBUG = True
 # False =  DjDT is close
-DEBUG_TOOLBAR = TRUE
+DEBUG_TOOLBAR = True
 
 SECRET_KEY = 'dev_key'
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ralph',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         },
     }
