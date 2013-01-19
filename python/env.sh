@@ -10,6 +10,7 @@ package[1]="pdbpp" # pdb++, a drop-in replacement for pdb
 package[2]="pep8" # pep8 is a tool to check your Python code against some of the style conventions in PEP 8.
 
 # Create a virtual environment
+echo -e "\n"
 echo -e "\033[32m --------------------------------------------------------------------------------\e[00m"
 echo -e "\033[32m Creating a virtual environment\e[00m"
 echo -e "\033[32m --------------------------------------------------------------------------------\e[00m"
