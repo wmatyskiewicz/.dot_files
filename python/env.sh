@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##########################################################################################
-# How to use: https://github.com/wmatyskiewicz/workspace/wiki/Python-Virtual-Environment #
+# How to use: https://github.com/wmatyskiewicz/workspace/wiki/Python-Virtual-Environment-on-Ubuntu #
 ##########################################################################################
 
 # Configuration
