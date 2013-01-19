@@ -3,7 +3,6 @@
 ##########################################################################################
 # How to use: https://github.com/wmatyskiewicz/workspace/wiki/Python-Virtual-Environment #
 ##########################################################################################
-
 # Configuration
 package[0]="bpython" # bpython is a fancy interface to the Python interpreter for Unix-like operating systems.
 package[1]="pdbpp" # pdb++, a drop-in replacement for pdb
