@@ -1,4 +1,7 @@
 #!/bin/bash
+##########################################################################################
+# How to use: https://github.com/wmatyskiewicz/workspace/wiki/Python-Virtual-Environment #
+##########################################################################################
 
 # Configuration
 package[0]="bpython" # bpython is a fancy interface to the Python interpreter for Unix-like operating systems.
