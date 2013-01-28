@@ -1,0 +1,5 @@
+[user]
+	name = Wojciech Matyskiewicz
+  email = wojtek@matyskiewicz.com
+[core]
+  excludesfile = "~/.gitignore_global"
