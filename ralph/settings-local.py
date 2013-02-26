@@ -34,3 +34,7 @@ if DEBUG_TOOLBAR is True:
         'debug_toolbar.panels.signals.SignalDebugPanel',
         'debug_toolbar.panels.logger.LoggingPanel',
         )
+    DEBUG_TOOLBAR_CONFIG = {
+        'INTERCEPT_REDIRECTS': False,
+    }
+    
