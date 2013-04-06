@@ -11,7 +11,9 @@ echo -e "\033[32m --------------------------------------------------------------
 
 virtualenv . --distribute --no-site-packages
 source bin/activate
-mkdir project
+mkdir project project/doc project/src/
+touch project/readme.rst project/license.rst
+git init
 
 # Instaling packages
 for ((i=0; i<${#package[*]}; i++))
@@ -22,13 +24,5 @@ do
   pip install ${package[$1]}
   echo "\n"
 done
-
-echo -e "\n"
-echo -e "\033[32m --------------------------------------------------------------------------------\e[00m"
-echo -e "\033[32m Git init\e[00m"
-echo -e "\033[32m --------------------------------------------------------------------------------\e[00m"
-
-cd project
-git init
 
 deactivate
