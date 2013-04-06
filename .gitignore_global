@@ -1,0 +1,42 @@
+# Compiled Python scripts
+*.pyc
+*.pyo
+__pycache__
+
+# Python Sphinx, virtualenv and setuptools files
+/doc/_build
+/build
+*.egg-info
+
+# Temporary or runtime files
+*.old
+*.bak
+*.swp
+*.swo
+*.swn
+*.local
+*.log
+*.pid
+*.cache
+*.orig
+*~
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
+
+# IDE files
+
+*.cache
+*.sublime-project
+*.sublime-workspace

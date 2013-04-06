@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": true,
+	"installed_packages":
+	[
+		"Git",
+		"Package Control"
+	],
+	"repositories":
+	[
+		"https://github.com/dzhibas/SublimePrettyJson.git"
+	]
+}
