@@ -7,7 +7,7 @@ source $ZSH/oh-my-zsh.sh
 
 # ALiases
 alias ll="ls -al"
-alias envactivate="../../../bin/activate"
+alias envactivate="source ../../../bin/activate"
 alias workspace="~/Workspace"
 alias pyenv="~/.workspace_config/scripts/python-env.sh"
 
