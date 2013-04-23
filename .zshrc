@@ -12,6 +12,7 @@ alias ll="ls -al"
 function cdproject
 {
 	cd ~/Workspace/$1/
+	ll
 }
 
 alias workspace="cd ~/Workspace"
