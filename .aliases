@@ -1,0 +1,32 @@
+# Sys aliases
+alias ll="ls -al"
+
+# Workspace aliases
+function cdproject
+{
+	cd ~/Workspace/$1/
+	ll
+}
+
+alias workspace="cd ~/Workspace"
+alias project=cdproject
+
+# Python aliases
+function activateenv
+{
+	source ~/Workspace/$1/bin/activate
+	cd ~/Workspace/$1/
+	ll
+}
+
+function makeenv
+{
+	virtualenv . --distribute --no-site-packages
+	source bin/activate
+	mkdir project
+	ll
+}
+
+alias makeenv=makeenv
+alias activateenv=activateenv
+alias clearenv="find . -name '*.pyc' -delete"
