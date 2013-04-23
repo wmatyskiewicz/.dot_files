@@ -22,6 +22,7 @@ function activateenv
 {
 	source ~/Workspace/$1/bin/activate
 	cd ~/Workspace/$1/
+	ll
 }
 
 alias makeenv="~/.workspace_config/scripts/python-env.sh"
