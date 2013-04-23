@@ -15,7 +15,7 @@ alias project=cdproject
 function activateenv
 {
 	source ~/Workspace/$1/bin/activate
-	cd ~/Workspace/$1/
+	cd ~/Workspace/$1/project
 	ll
 }
 
