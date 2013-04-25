@@ -1,32 +1,30 @@
-# Sys aliases
-alias ll="ls -al"
+#!/bin/bash
 
-# Workspace aliases
-function cdproject
-{
-	cd ~/Workspace/$1/
-	ll
+################################## functions ##################################
+
+function project {
+	if [ "$1" = "" ]; then
+		cd ~/Workspace/
+		ls -al
+	else
+		if [ "$2" = "-a" ]; then
+			source ~/Workspace/$1/bin/activate
+		fi
+		cd ~/Workspace/$1/project/
+		ls -al
+	fi
 }
 
-alias workspace="cd ~/Workspace"
-alias project=cdproject
-
-# Python aliases
-function activateenv
-{
-	source ~/Workspace/$1/bin/activate
-	cd ~/Workspace/$1/project
-	ll
-}
-
-function makeenv
-{
+function makeenv {
 	virtualenv . --distribute --no-site-packages
 	source bin/activate
 	mkdir project
-	ll
+	ls -al
 }
 
+################################### aliases ###################################
+
+alias ll="ls -al"
+alias project=project
 alias makeenv=makeenv
-alias activateenv=activateenv
 alias clearenv="find . -name '*.pyc' -delete"
