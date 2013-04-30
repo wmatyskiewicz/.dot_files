@@ -23,6 +23,7 @@ function makeenv {
 ################################### aliases ###################################
 
 alias ll="ls -al"
+alias cc="clear"
 alias project=project
 alias makeenv=makeenv
 alias clearenv="find . -name '*.pyc' -delete"
