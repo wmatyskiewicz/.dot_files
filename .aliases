@@ -1,13 +1,14 @@
 ################################## functions ##################################
 
 function project {
-	if [ "$1" = "" ]; then
-		cd ~/Workspace/
-		ls -al
-	        source ~/Workspace/$1/bin/activate
-		cd ~/Workspace/$1/project/
-		ls -al
-	fi
+    if [ "$1" = "" ]; then
+        cd ~/Workspace/
+        ls -al
+    else
+        source ~/Workspace/$1/bin/activate
+        cd ~/Workspace/$1/project/
+        ls -al
+    fi
 }
 
 function makeenv {
