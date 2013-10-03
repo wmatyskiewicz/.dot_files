@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[import pdb; pdb.set_trace()]]></content>
+    <content><![CDATA[import ipdb; ipdb.set_trace()]]></content>
     <tabTrigger>pdb import</tabTrigger>
     <description>Import PDB</description>
 </snippet>
