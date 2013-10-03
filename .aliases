@@ -4,10 +4,7 @@ function project {
 	if [ "$1" = "" ]; then
 		cd ~/Workspace/
 		ls -al
-	else
-		if [ "$2" = "-a" ]; then
-			source ~/Workspace/$1/bin/activate
-		fi
+	        source ~/Workspace/$1/bin/activate
 		cd ~/Workspace/$1/project/
 		ls -al
 	fi
@@ -22,6 +19,7 @@ function makeenv {
 
 ################################### aliases ###################################
 
+alias py="python"
 alias ll="ls -al"
 alias cc="clear"
 alias project=project
