@@ -10,6 +10,7 @@ function project {
         ls -al
     fi
 }
+alias project=project
 
 function makeenv {
 	virtualenv . --distribute --no-site-packages
@@ -17,17 +18,19 @@ function makeenv {
 	mkdir project
 	ls -al
 }
+alias makeenv=makeenv
 
 ################################### aliases ###################################
 
+# tools
 alias py="python"
+alias redis="redis-commander"
+alias clearenv="find . -name '*.pyc' -delete"
+
+# system
 alias ll="ls -al"
 alias cc="clear"
-alias project=project
-alias makeenv=makeenv
-alias clearenv="find . -name '*.pyc' -delete"
 alias killavahi="/etc/init.d/avahi-daemon stop"
-
 
 # MacOS
 alias safari="open -a Safari $1"
