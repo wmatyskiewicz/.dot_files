@@ -28,9 +28,6 @@ alias makeenv=makeenv
 alias clearenv="find . -name '*.pyc' -delete"
 alias killavahi="/etc/init.d/avahi-daemon stop"
 
-# Ralph
-alias test_pricing="DJANGO_SETTINGS_PROFILE="test-pricing" ralph test ralph_pricing -v2"
-alias test_assets="DJANGO_SETTINGS_PROFILE="test-assets" ralph test ralph_assets -v2"
 
 # MacOS
 alias safari="open -a Safari $1"
