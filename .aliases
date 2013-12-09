@@ -23,7 +23,7 @@ alias makeenv=makeenv
 ################################### aliases ###################################
 
 # tools
-alias py="python"
+alias py="ipython"
 alias redis="redis-commander"
 alias clearenv="find . -name '*.pyc' -delete"
 
