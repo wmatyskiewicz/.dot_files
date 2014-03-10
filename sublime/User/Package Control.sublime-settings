@@ -1,11 +1,11 @@
- {
-     "installed_packages":
-     [
-         "All Autocomplete",
-         "Anaconda",
-         "GitGutter",
-         "SublimePythonIDE"
-         "Syntax Highlighting for Sass",
-         "Theme - Flatland"
-     ]
- }
+ 
+talled_packages":
+    [
+        "All Autocomplete",
+        "Anaconda",
+        "GitGutter",
+        "SublimePythonIDE",
+        "Syntax Highlighting for Sass",
+        "Theme - Flatland"
+    ]
+}
