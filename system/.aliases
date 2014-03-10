@@ -6,7 +6,7 @@ function project {
         ls -al
     else
         source ~/Workspace/$1/bin/activate
-        cd ~/Workspace/$1/project/
+        cd ~/Workspace/$1/
         ls -al
     fi
 }
@@ -25,12 +25,16 @@ alias makeenv=makeenv
 # tools
 alias py="ipython"
 alias redis="redis-commander"
-alias clearenv="find . -name '*.pyc' -delete"
+alias clearpyc="find . -name '*.pyc' -delete"
 
 # system
 alias ll="ls -al"
 alias cc="clear"
-alias killavahi="/etc/init.d/avahi-daemon stop"
 
 # MacOS
 alias safari="open -a Safari $1"
+
+# Sublime Text
+alias sublime_dir="~/Library/Application\ Support/Sublime\ Text\ 3/Packages"
+
+
