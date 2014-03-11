@@ -1,10 +1,11 @@
- 
-talled_packages":
+{ 
+    "installed_packages":
     [
         "All Autocomplete",
         "Anaconda",
         "GitGutter",
         "SublimePythonIDE",
+        "Sublimerge Pro",
         "Syntax Highlighting for Sass",
         "Theme - Flatland"
     ]
