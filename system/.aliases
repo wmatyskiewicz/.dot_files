@@ -37,4 +37,7 @@ alias safari="open -a Safari $1"
 # Sublime Text
 alias sublime_dir="~/Library/Application\ Support/Sublime\ Text\ 3/Packages"
 
+# GIT
+alias "git diff"="git diff --color"
+
 
