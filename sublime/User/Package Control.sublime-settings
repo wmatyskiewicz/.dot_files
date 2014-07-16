@@ -1,12 +1,16 @@
-{ 
-    "installed_packages":
-    [
-        "All Autocomplete",
-        "Anaconda",
-        "GitGutter",
-        "SublimePythonIDE",
-        "Sublimerge Pro",
-        "Syntax Highlighting for Sass",
-        "Theme - Flatland"
-    ]
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AngularJS",
+		"AutoPEP8",
+		"HTMLBeautify",
+		"Indent XML",
+		"SideBarEnhancements",
+		"sublimelint",
+		"SublimePythonIDE",
+		"Sublimerge Pro",
+		"Syntax Highlighting for Sass",
+		"Theme - Flatland"
+	]
 }
