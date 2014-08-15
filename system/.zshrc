@@ -8,4 +8,4 @@ ZSH_THEME="af-magic"
 plugins=(autopep8 bower brew docker Forklift git osx python sublime tmux)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.dot_files/.aliasses
+source $HOME/.dot_files/system/.aliases

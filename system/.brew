@@ -2,3 +2,6 @@ composer
 node
 docker
 boot2docker
+git
+zsh
+tmux
