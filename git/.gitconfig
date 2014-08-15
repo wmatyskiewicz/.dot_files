@@ -1,19 +1,24 @@
 [user]
-  name = "Wojtek Matyskiewicz"
-  email = wojtek@matyskiewicz.com
-  
+	name = Wojtek Matyskiewicz
+	email = wojtek@matyskiewicz.com
 [core]
-  excludesfile = "~/.dot_files/git/.gitignore_global"
-  
+	editor = subl -n -w
+	excludesfile = ~/.dot_files/git/.gitignore_global
+	fileMode = false
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[push]
+	default = current
 [merge]
-    tool = sublimerge
-
+	tool = sublimerge
 [mergetool "sublimerge"]
-    cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
-    trustExitCode = false
-
+	cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+	trustExitCode = false
 [diff]
-    tool = sublimerge
-
+	tool = sublimerge
 [difftool "sublimerge"]
-    cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
+	cmd = subl -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
