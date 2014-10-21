@@ -5,3 +5,4 @@ boot2docker
 git
 zsh
 tmux
+sshfs
