@@ -10,7 +10,6 @@ function project {
         ls -al
     fi
 }
-alias project=project
 
 function makeenv {
 	virtualenv . --distribute --no-site-packages
@@ -18,17 +17,21 @@ function makeenv {
 	mkdir project
 	ls -al
 }
-alias makeenv=makeenv
 
+function makeenv3 {
+        virtualenv . --distribute --no-site-packages --python=/usr/local/bin/python3
+        source bin/activate
+        mkdir project
+        ls -al
+}
 ################################### aliases ###################################
 
 # tools
 alias py="ipython"
-alias redis="redis-commander"
 alias clearpyc="find . -name '*.pyc' -delete"
 
 # system
-alias ll="ls -al"
+alias ll="ls -alh"
 alias cc="clear"
 
 # MacOS
@@ -36,8 +39,5 @@ alias safari="open -a Safari $1"
 
 # Sublime Text
 alias sublime_dir="~/Library/Application\ Support/Sublime\ Text\ 3/Packages"
-
-# GIT
-alias "git diff"="git diff --color"
 
 

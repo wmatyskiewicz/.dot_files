@@ -7,6 +7,7 @@ __pycache__
 /doc/_build
 /build
 *.egg-info
+.pypirc
 
 # Temporary or runtime files
 *.old
@@ -40,3 +41,4 @@ Thumbs.db
 *.cache
 *.sublime-project
 *.sublime-workspace
+
