@@ -44,3 +44,7 @@ alias sublime_dir="~/Library/Application\ Support/Sublime\ Text\ 3/Packages"
 # Python
 alias pypi_register="py setup.py register -r pypi"
 alias pypi_upload="py setup.py sdist upload -r pypi"
+
+
+# Docker
+alias docker_rm="docker rm -fv $(docker ps -aq)"
