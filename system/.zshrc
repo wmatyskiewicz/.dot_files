@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="af-magic"
+ZSH_THEME="bullet-train"
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(autopep8 bower brew docker Forklift git osx python sublime tmux)
